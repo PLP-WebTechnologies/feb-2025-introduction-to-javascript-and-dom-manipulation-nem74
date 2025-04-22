@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript DOM Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    #message {
+      color: darkblue;
+      font-size: 1.5rem;
+    }
+
+    .highlight {
+      background-color: yellow;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to DOM Manipulation!</h1>
+  </header>
+
+  <section>
+    <p id="message">Click the button to change this text!</p>
+    <button onclick="changeText()">Change Text</button>
+    <button onclick="toggleHighlight()">Toggle Highlight</button>
+    <button onclick="addElement()">Add Element</button>
+    <button onclick="removeElement()">Remove Element</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 DOM Funzone</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
